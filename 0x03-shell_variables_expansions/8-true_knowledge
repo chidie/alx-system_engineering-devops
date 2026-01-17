@@ -1,3 +1,2 @@
 #!/bin/bash
-INITIAL=89
-echo  $((INITIAL + TRUEKNOWLEDGE)) # first export TRUEKNOWLEDGE=1
+echo -e "$TRUEKNOWLEDGE\n$((89 + TRUEKNOWLEDGE))" # first export TRUEKNOWLEDGE=1
