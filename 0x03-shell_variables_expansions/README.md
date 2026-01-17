@@ -18,3 +18,5 @@ Interesting DevOps for Backend project
     git remote set-url origin git@github.com:chidie/alx-system_engineering-devops.git
     git push
 ```
+
+>NOTE: Do a dos2unix <file> when you see such messages as -bash: ./102-odd: cannot execute: required file not found

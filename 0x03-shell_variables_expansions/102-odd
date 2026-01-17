@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -n 'p;n' # Ensure it is converted to Unix format before running. dos2unix 102-odd, E.g: ls -l | ./102-odd 
