@@ -1,6 +1,3 @@
 #!/bin/bash
-INITIAL=128
-echo $INITIAL
+INITIAL=89
 echo  $((INITIAL + TRUEKNOWLEDGE)) # first export TRUEKNOWLEDGE=1
-
-
