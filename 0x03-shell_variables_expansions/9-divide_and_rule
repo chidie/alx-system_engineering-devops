@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((POWER /DIVIDE))  # first export POWER=89 and export DIVIDE=3
