@@ -1,2 +1,10 @@
 #!/bin/bash
-i=0;while read l;do [ $((i%2)) -eq 0 ]&&echo "$l";i=$((i+1));done # Ensure it is converted to Unix format before running. dos2unix 102-odd, E.g: ls -l | ./102-odd 
+i=0
+while read l
+do
+if [ $((i%2)) -eq 0 ]
+then
+echo "$l"
+fi
+i=$((i+1))
+done
