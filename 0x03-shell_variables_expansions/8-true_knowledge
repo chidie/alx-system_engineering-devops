@@ -1,2 +1,6 @@
 #!/bin/bash
-echo  $((128 + TRUEKNOWLEDGE))
+INITIAL=128
+echo $INITIAL
+echo  $((INITIAL + TRUEKNOWLEDGE)) # first export TRUEKNOWLEDGE=1
+
+
